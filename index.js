@@ -1,9 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+const google = require('googleapis');
+const authentication = require("./authentication");
 var users = [];
-let google = require('googleapis');
-let authentication = require("./authentication");
 
  
 // Run server to listen on port 8000.
